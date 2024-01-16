@@ -24,3 +24,11 @@ Sample individual audio sources in music.
 
 ![System Design Diagram](public/img/sysdiag-background.png)
 </div>
+
+## Visual Design
+### Color Reference
+
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Primary | ![#e9e0bb](https://via.placeholder.com/10/e9e0bb?text=+) #e9e0bb |
+| Secondary| ![#d85b42](https://via.placeholder.com/10/d85b42?text=+) #d85b42 |
