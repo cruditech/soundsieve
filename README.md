@@ -1,6 +1,6 @@
 <div style='background-color:#e9e0bb'>
 
-![Sound Sieve Logo](public/img/Sound%20Sieve-logo/cover.png)
+![Sound Sieve Logo](public/img/Sound%20Sieve-logo/cover%20copy.png)
 
 <div style='color:#d85b42'>
 
