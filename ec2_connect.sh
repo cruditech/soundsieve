@@ -1,0 +1,1 @@
+ssh -i SoundSieveEB.pem ec2-user@ec2-52-201-239-102.compute-1.amazonaws.com
