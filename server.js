@@ -1,13 +1,10 @@
-const dotenv = require('dotenv');
+require('dotenv').load();
 const express = require('express');
 const http = require('http');
 const logger = require('morgan');
 const path = require('path');
 const router = require('./routes/index');
 const { auth } = require('express-openid-connect');
-
-dotenv.load();
-
 const app = express();
 
 app.set('views', path.join(__dirname, 'views'));

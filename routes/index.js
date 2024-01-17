@@ -1,10 +1,12 @@
 var router = require('express').Router();
 const { requiresAuth } = require('express-openid-connect');
+const { signature } = require('../utils/transloadit_auth');
 
 router.get('/', function (req, res, next) {
   res.render('index', {
     title: 'Auth0 Webapp sample Nodejs',
-    isAuthenticated: req.oidc.isAuthenticated()
+    isAuthenticated: req.oidc.isAuthenticated(),
+    signature: signature
   });
 });
 
