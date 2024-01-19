@@ -8,14 +8,13 @@ Sample individual audio sources in music.
 
 ## Requirements
 
-* Support large file sizes w/ decoupled upload service (transloadit)
-* Queue audio for separation via worker
+* Support large file sizes w/ decoupled upload service (transloadit) and source separation service (spleeter on ec2)
 * Display queue position while busy, then notify user of completion
 
 
 ## System Design
 
-![System Design Diagram](public/img/systemdiagram.png)
+![System Design Diagram](public/img/soundsievesysdiagram-2.png)
 
 ## Visual Design
 ### Color Reference
