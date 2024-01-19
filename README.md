@@ -1,5 +1,5 @@
 
-![Sound Sieve Logo](public/img/Sound%20Sieve-logo/cover.png)
+![Sound Sieve Logo](public/img/Sound%20Sieve-logo/soundsievecoverround.png)
 
 
 ## Purpose
