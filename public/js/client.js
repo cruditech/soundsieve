@@ -4,8 +4,10 @@ import {
     ImageEditor,
     RemoteSources,
     Transloadit,
-  } from 'https://releases.transloadit.com/uppy/v3.10.0/uppy.min.mjs'
-function setupUpload(signature) {
+  } from 'https://releases.transloadit.com/uppy/v3.18.0/uppy.min.mjs'
+function setupUpload() {
+  const signature = document.getElementById('transloadit-signature').innerText;
+  console.log('signature', signature);
   const uppy = new Uppy()
     .use(Transloadit, {
       waitForEncoding: true,
@@ -48,3 +50,5 @@ function setupUpload(signature) {
 
     console.log(uploadedFiles)
   })
+}
+setupUpload();
