@@ -14,7 +14,7 @@ Sample individual audio sources in music.
 
 ## System Design
 
-![System Design Diagram](public/img/soundsievesysdiagram-2.png)
+![System Design Diagram](public/img/systemdiagram.png)
 
 ## Visual Design
 ### Color Reference
